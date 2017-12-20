@@ -43,8 +43,8 @@ export default class Login extends Component {
           <TextInput  style={styles.input} placeholder="Password" placeholderTextColor="white" secureTextEntry={true}/>
         </View>
         <TouchableOpacity onPress={this.handlePress} style={styles.button}>
-          <Text>Ingresar</Text>
-          <Icon name="ios-lock-outline" size={30} color="#25B36F" />
+          <Text style={styles.textButton}>Ingresar</Text>
+          <Icon name="ios-arrow-dropright-outline" size={30} color="white" style={styles.iconButton} />
         </TouchableOpacity>
       </ImageBackground>
     );
@@ -90,6 +90,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderTopLeftRadius: 5,
     borderBottomLeftRadius: 5,
+    borderWidth: 1,
+    borderColor: 'white'
   },
   input:{
     flex: 1,
@@ -108,5 +110,18 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     justifyContent: 'center',
     alignItems: 'center',
+    marginHorizontal: 10,
+    height: 45
+  },
+  textButton:{
+    flex: 1,
+    color: 'white',
+    textAlign: 'center',
+    fontSize: 14
+  },
+  iconButton:{
+    position: 'absolute',
+    right: 15
   }
+
 });
