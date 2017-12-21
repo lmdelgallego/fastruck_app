@@ -1,16 +1,25 @@
 import React from 'react';
-import { StackNavigator } from 'react-navigation';
+import { DrawerNavigator } from 'react-navigation';
 
 import LoginScreen from './Login';
 import HomeScreen from './Home';
+import SideBar from './Sidebar/Sidebar.js';
 
-const RootNavigator = StackNavigator(
+const RootNavigator = DrawerNavigator(
   {
-    Login: { screen: LoginScreen },
-    Home: { screen: HomeScreen, }
+    Login: { 
+      screen: LoginScreen 
+    },
+    Home: { 
+      screen: HomeScreen, 
+    }
   },
   {
-    headerMode: 'screen'
+    headerMode: 'screen',
+    drawerOpenRoute: 'DrawerOpen',
+    drawerCloseRoute: 'DrawerClose',
+    drawerToggleRoute: 'DrawerToggle',
+    contentComponent: props => <SideBar {...props} />
   }
 );
 

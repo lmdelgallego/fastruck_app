@@ -17,14 +17,17 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class Login extends Component {
   static navigationOptions = {
-    title: 'Welcome',
-    header: null
+    // title: 'Welcome',
+    // header: null
   };
-
+  
+  
   handlePress = () => {
-    Alert.alert('Info','Inglesar')
+    const { navigate } = this.props.navigation;
+    Alert.alert('Info','Inglesar');
+    navigate('Home');
   }
-
+  
   render() {
     return (
       <ImageBackground source={require('./accets/bg_login.png')} style={styles.container}>
@@ -76,7 +79,7 @@ const styles = StyleSheet.create({
     right: 0, 
     left: 0,
     height: 45,
-    paddingHorizontal: 10,
+    paddingHorizontal: 35,
     alignItems: 'center',
     marginBottom: 25,
   },
@@ -110,7 +113,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     justifyContent: 'center',
     alignItems: 'center',
-    marginHorizontal: 10,
+    marginHorizontal: 35,
     height: 45
   },
   textButton:{

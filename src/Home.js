@@ -2,17 +2,25 @@
 
 import React, { Component } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
+  // View,
+  // Text,
+  StyleSheet
 } from 'react-native';
+import {Container, Title, Content,Text} from 'native-base';
+import HeaderFast from './HeaderFast'
 
 export default class Home extends Component {
+  static navigationOptions = {
+    // header: null
+  };
   render() {
     return (
-      <View style={styles.container}>
-        <Text>I'm the Home component</Text>
-      </View>
+      <Container>
+        <HeaderFast navigation={this.props.navigation} />
+        <Content>
+          <Text>Dashboard</Text>
+        </Content>
+      </Container>
     );
   }
 }
@@ -20,5 +28,6 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-  },
+  }
 });
+

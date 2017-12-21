@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		7lbTb0TQSA50LEGjxewzmYSo17c=
+		dVKeS+wzwYufKdbugLuhVX/9sQQ=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -28,9 +28,50 @@
 		<data>
 		SyvObHkkk6SlcWtv7C2+/olJLD8=
 		</data>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<data>
+		ooz0sIAaLKBGoFU5iKq8DR11NmY=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<data>
+		R/knOPjsjrJNiVtUa2S4kYE749M=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<data>
+		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<data>
+		K7jOt4uC+lqy/StneXlQVk21axY=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		M3EBma1BpAxt7iGIjYcrm9BnNOc=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		5EUn1qFgVTwSkfSLCubcLwgrx0c=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		Etc/8BPenX54rv1uBx24u4bnqTg=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		gCANVh8X0jCM8cG1FwLbG4GKSmM=
+		dkDbEqun7g2USPMpSE0RS98F8o8=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -46,11 +87,39 @@
 		</data>
 		<key>Octicons.ttf</key>
 		<data>
-		43wPh5FmspBv+00q8kJl9AIbRBc=
+		XF4wYBlFFw56fAqk3ggmUtwnNQI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlugIns/FastruckAppTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		W7vUvJl59FZjm0yggYtZswFtyqs=
+		</data>
+		<key>PlugIns/FastruckAppTests.xctest.dSYM/Contents/Resources/DWARF/FastruckAppTests</key>
+		<data>
+		9TShlWE8/idmf07cF3vVKK8miWI=
+		</data>
+		<key>PlugIns/FastruckAppTests.xctest/FastruckAppTests</key>
+		<data>
+		9AR4xe1yg6G1C+k5ZBRvbejJfXw=
+		</data>
+		<key>PlugIns/FastruckAppTests.xctest/Info.plist</key>
+		<data>
+		V8Pw/6wxdGRSUwazd5hJA9Rx0P4=
+		</data>
+		<key>PlugIns/FastruckAppTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		KQD5SnYXzWL0UA/ZvQxiUcGiFxM=
+		</data>
+		<key>Roboto.ttf</key>
+		<data>
+		HR1B/K3Fcd7LZEQhG3mTuZzpJuI=
+		</data>
+		<key>Roboto_medium.ttf</key>
+		<data>
+		rbw73kJLz328OPFIAFyDGYJYkfI=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -60,6 +129,10 @@
 		<data>
 		C9pZx7zT05J94EfgkYdaRCi/0as=
 		</data>
+		<key>rubicon-icon-font.ttf</key>
+		<data>
+		wWjJGa/hGKWVqUjSz9izW6v2ekU=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -67,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7lbTb0TQSA50LEGjxewzmYSo17c=
+			dVKeS+wzwYufKdbugLuhVX/9sQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			F7IlIkORoMKa/4TCUpF051kvbiBTxT7gpCAzT044swk=
+			sHBfsFftzWFXMG4E2Pu5X7b3mo0ageDCMzS8qJywWU8=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -129,6 +202,107 @@
 			fh3QPdTOkLZYBSVUzXRZ3xZxZxc4mlUvpMbVal+JM+Y=
 			</data>
 		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ooz0sIAaLKBGoFU5iKq8DR11NmY=
+			</data>
+			<key>hash2</key>
+			<data>
+			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R/knOPjsjrJNiVtUa2S4kYE749M=
+			</data>
+			<key>hash2</key>
+			<data>
+			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K7jOt4uC+lqy/StneXlQVk21axY=
+			</data>
+			<key>hash2</key>
+			<data>
+			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M3EBma1BpAxt7iGIjYcrm9BnNOc=
+			</data>
+			<key>hash2</key>
+			<data>
+			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5EUn1qFgVTwSkfSLCubcLwgrx0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Etc/8BPenX54rv1uBx24u4bnqTg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
+			</data>
+		</dict>
 		<key>Ionicons.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -166,11 +340,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			43wPh5FmspBv+00q8kJl9AIbRBc=
+			XF4wYBlFFw56fAqk3ggmUtwnNQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			IDC914RgQrcm7e1pDO4UjqugvZKBAae3xLoaLztAPMg=
+			sw1aNDI0CqTWoFwAl/BoysSnzVrJqfoRSzi3y6/KJCM=
+			</data>
+		</dict>
+		<key>PlugIns/FastruckAppTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W7vUvJl59FZjm0yggYtZswFtyqs=
+			</data>
+			<key>hash2</key>
+			<data>
+			918gEP92zCuJgsOcwLxAaQi9BixccFnIGh/3OQHkCbI=
+			</data>
+		</dict>
+		<key>PlugIns/FastruckAppTests.xctest.dSYM/Contents/Resources/DWARF/FastruckAppTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9TShlWE8/idmf07cF3vVKK8miWI=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZIBbEfhmkgtaXfRyY03XnMVAEbk8eF1MBzLnMcAc4CQ=
+			</data>
+		</dict>
+		<key>PlugIns/FastruckAppTests.xctest/FastruckAppTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9AR4xe1yg6G1C+k5ZBRvbejJfXw=
+			</data>
+			<key>hash2</key>
+			<data>
+			tebZ+EJlZ1A9qsq2sGpLVFyrzKtXd1ehp/RMwPtT+EI=
+			</data>
+		</dict>
+		<key>PlugIns/FastruckAppTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V8Pw/6wxdGRSUwazd5hJA9Rx0P4=
+			</data>
+			<key>hash2</key>
+			<data>
+			PHnhcOZK9yxZHalVYGPyuOdoUYEY7sRG4mQOpJzGfII=
+			</data>
+		</dict>
+		<key>PlugIns/FastruckAppTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KQD5SnYXzWL0UA/ZvQxiUcGiFxM=
+			</data>
+			<key>hash2</key>
+			<data>
+			YuCUc94Z29BsNVjksQpqgbGRH+fk7XEp25arEakpzPw=
+			</data>
+		</dict>
+		<key>Roboto.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HR1B/K3Fcd7LZEQhG3mTuZzpJuI=
+			</data>
+			<key>hash2</key>
+			<data>
+			su+ryl6kvFbuqClxNwa1zQeIuCrKFTvUrd6bFXOTO08=
+			</data>
+		</dict>
+		<key>Roboto_medium.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rbw73kJLz328OPFIAFyDGYJYkfI=
+			</data>
+			<key>hash2</key>
+			<data>
+			0Mj0SndLhJDO7imInNq8cjgfo1+2IWGaeP0oIR2QJBw=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
@@ -193,6 +444,17 @@
 			<key>hash2</key>
 			<data>
 			17EKHr4YMOWi8I9JA7moDiwZEsDdL3O5P88r+DIhZgI=
+			</data>
+		</dict>
+		<key>rubicon-icon-font.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wWjJGa/hGKWVqUjSz9izW6v2ekU=
+			</data>
+			<key>hash2</key>
+			<data>
+			QidT7Dg0ix8cbNL7jAOGB1UJ8qZuZ1+mfLlrbeEAZhM=
 			</data>
 		</dict>
 	</dict>
