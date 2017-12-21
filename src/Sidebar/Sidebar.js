@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Image, StyleSheet, View} from "react-native";
+import {Image, StyleSheet, View, TouchableOpacity} from "react-native";
 import {
   Button,
   Text,
@@ -17,9 +17,10 @@ class SideBar extends Component {
       <Container style={styles.container}>
         <View style={styles.containerHeader}>
           <Thumbnail source={require('../accets/fotico.jpg')} style={styles.photo} />
-          <Text>
-            Luis Miguel Del Gallego
-          </Text>
+          <TouchableOpacity style={styles.btnProfile}>
+            <Text style={styles.profileText} >Luis Miguel Del Gallego</Text>
+            <Icon style={styles.profileIcon} name="settings" />
+          </TouchableOpacity>
         </View>
         <Content style={styles.containerList}>
           <Text>Lista</Text>
@@ -43,7 +44,18 @@ const styles = StyleSheet.create({
   photo:{
     width: 56,
     height: 56,
-    marginBottom: 28
+  },
+  btnProfile:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 10
+  },
+  profileText:{
+    color: 'white',
+    flex: 1
+  },
+  profileIcon:{
+    color: 'white',
   },
   containerList:{
     flex:1,
