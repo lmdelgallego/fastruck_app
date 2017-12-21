@@ -14,11 +14,12 @@ export default class Home extends Component {
     // header: null
   };
   render() {
+    
     return (
       <Container>
         <HeaderFast navigation={this.props.navigation} />
         <Content>
-          <Text>Dashboard</Text>
+          <Title>Dashboard</Title>
         </Content>
       </Container>
     );

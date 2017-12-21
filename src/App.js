@@ -4,6 +4,7 @@ import { DrawerNavigator } from 'react-navigation';
 import LoginScreen from './Login';
 import HomeScreen from './Home';
 import SideBar from './Sidebar/Sidebar.js';
+import Profile from './Profile/Profile';
 
 const RootNavigator = DrawerNavigator(
   {
@@ -12,6 +13,9 @@ const RootNavigator = DrawerNavigator(
     },
     Home: { 
       screen: HomeScreen, 
+    },
+    Profile:{
+      screen: Profile
     }
   },
   {
@@ -19,6 +23,7 @@ const RootNavigator = DrawerNavigator(
     drawerOpenRoute: 'DrawerOpen',
     drawerCloseRoute: 'DrawerClose',
     drawerToggleRoute: 'DrawerToggle',
+    // initialRouteName: 'Home',
     contentComponent: props => <SideBar {...props} />
   }
 );

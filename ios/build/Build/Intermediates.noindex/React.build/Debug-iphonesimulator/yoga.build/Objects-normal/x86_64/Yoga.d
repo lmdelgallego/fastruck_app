@@ -1,7 +1,2 @@
 dependencies: \
-  /Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.c \
-  /Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.h \
-  /Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h
+  /Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/fastruck_app/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.c

@@ -8,11 +8,22 @@ import {
   ListItem,
   Content,
   Icon,
-  Thumbnail
+  Thumbnail,
+  Left,
+  Body
 } from "native-base";
 
 class SideBar extends Component {
   render() {
+   const routes = [
+      {title: 'Inicio',icon: 'ios-home-outline', navigate: () => {this.props.navigation.navigate('Home')}}, 
+      {title: 'Mis Viajes',icon: 'ios-navigate-outline', navigate: () => {console.warn(this.props)}}, 
+      {title: 'Mis Camiones',icon: 'ios-car-outline', navigate: () => {console.warn("Mis Camiones")}}, 
+      {title: 'Notificaciones',icon: 'ios-notifications-outline', navigate: () => {console.warn("Notificaciones")}}, 
+      {title: 'Perfil',icon: 'ios-person-outline', navigate: () => {this.props.navigation.navigate("Profile")}}, 
+      {title: 'FAQ',icon: 'ios-chatbubbles-outline', navigate: () => {console.warn("FAQ")}}, 
+      {title: 'Contacto',icon: 'ios-paper-plane-outline', navigate: () => {console.warn("Contacto")}}, 
+    ];
     return (
       <Container style={styles.container}>
         <View style={styles.containerHeader}>
@@ -22,9 +33,19 @@ class SideBar extends Component {
             <Icon style={styles.profileIcon} name="settings" />
           </TouchableOpacity>
         </View>
-        <Content style={styles.containerList}>
-          <Text>Lista</Text>
-        </Content>
+        <View style={styles.containerList}>
+          <List
+            dataArray={routes} 
+            renderRow={data => {
+              return(
+                <TouchableOpacity style={styles.listItem} onPress={data.navigate}>
+                    <Icon name={data.icon} style={styles.iconItem} />
+                    <Text style={styles.textItem}>{data.title}</Text>
+                </TouchableOpacity>
+              );
+            }}
+          />
+        </View>
       </Container>
     );
   }
@@ -32,7 +53,8 @@ class SideBar extends Component {
 
 const styles = StyleSheet.create({
   container:{
-    flex:1
+    flex:1,
+    backgroundColor: '#fafafa'
   },
   containerHeader:{
     backgroundColor: '#25b36f',
@@ -60,8 +82,27 @@ const styles = StyleSheet.create({
   containerList:{
     flex:1,
     backgroundColor: '#fafafa',
-    paddingHorizontal: 24,
-    paddingVertical: 16
+    marginVertical: 15,
+  },
+  listItem:{
+    backgroundColor: '#fafafa',
+    borderBottomColor: 'transparent',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginVertical: 5
+  },
+  textItem:{
+    flex: 1,
+    marginLeft: 15,
+    fontSize: 13,
+    color: 'rgba(0, 0, 0, 0.87)'
+  },
+  iconItem:{
+    marginHorizontal:15,
+    fontSize: 22,
+    width: 25,
+    color: 'rgba(0, 0, 0, 0.54)'
   }
 });
 

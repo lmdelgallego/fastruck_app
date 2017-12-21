@@ -24,7 +24,6 @@ export default class Login extends Component {
   
   handlePress = () => {
     const { navigate } = this.props.navigation;
-    Alert.alert('Info','Inglesar');
     navigate('Home');
   }
   

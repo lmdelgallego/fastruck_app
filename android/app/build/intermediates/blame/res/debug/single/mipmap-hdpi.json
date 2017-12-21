@@ -2,5 +2,9 @@
     {
         "merged": "/Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/fastruck_app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/fastruck_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

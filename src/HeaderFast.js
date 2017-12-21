@@ -11,9 +11,9 @@ import { Button,Header, Left, Right, Icon, Text,Badge} from 'native-base';
 
 export default class HeaderFast extends Component {
 
-  handleMenu = () =>{
+  handleMenu = (route) =>{
     // console.warn(this.props);
-    this.props.navigation.navigate("DrawerOpen")
+    this.props.navigation.navigate(route);
   }
 
   render() {
@@ -21,7 +21,7 @@ export default class HeaderFast extends Component {
       <Header style={styles.header}>
           <Left style={styles.headerLeft}>
             <Button transparent
-             onPress={this.handleMenu}>
+             onPress={() => this.handleMenu('DrawerOpen')}>
               <Icon ios='ios-menu' android="md-menu" style={styles.menuIcon} />
             </Button>
             <Image source={require('./accets/logo_fastruck_white.png')} style={styles.logo}/>
@@ -32,13 +32,13 @@ export default class HeaderFast extends Component {
               <Badge style={styles.badge}><Text style={styles.textBadge}>2</Text></Badge>
             </Button>
             <Button transparent>
-              <Icon name="notifications" style={styles.leftIcon} />
+              <Icon name="ios-notifications-outline" style={styles.leftIcon} />
+            </Button>
+            <Button transparent onPress={()=> this.handleMenu('Profile')}>
+              <Icon name="ios-person-outline" style={styles.leftIcon} />
             </Button>
             <Button transparent>
-              <Icon name="person" style={styles.leftIcon} />
-            </Button>
-            <Button transparent>
-              <Icon name="search" style={styles.leftIcon} />
+              <Icon name="ios-search-outline" style={styles.leftIcon} />
             </Button>
           </Right>
         </Header>
