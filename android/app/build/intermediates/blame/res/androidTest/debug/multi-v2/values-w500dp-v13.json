@@ -1,6 +1,28 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/luisdelgallego/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/93e6d9874e06897edb59f525f5076918/res/values-w500dp/values-w500dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "283",
+                        "endColumns": "54",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/fastruck_app/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
             "map": [
                 {

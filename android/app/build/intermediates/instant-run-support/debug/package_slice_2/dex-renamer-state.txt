@@ -1,4 +1,4 @@
-#Thu Dec 21 16:14:42 COT 2017
-base.0=/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/fastruck_app/android/app/build/intermediates/transforms/dexMerger/debug/2
+#Tue Dec 26 13:31:14 COT 2017
+base.0=/Users/luisdelgallego/Documents/Proyectos/FASTRUCK/FastruckApp/android/app/build/intermediates/transforms/dexMerger/debug/21
 path.0=classes.dex
 renamed.0=classes.dex

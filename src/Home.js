@@ -8,7 +8,8 @@ import {
   TouchableOpacity
 } from 'react-native';
 import {Container, Button, Title, Content,Text,Tabs,Tab, Icon} from 'native-base';
-import HeaderFast from './HeaderFast'
+import HeaderFast from './HeaderFast';
+import TripList from './Trips/Trips';
 
 export default class Home extends Component {
   static navigationOptions = {
@@ -19,7 +20,6 @@ export default class Home extends Component {
     return (
       <Container>
         <HeaderFast navigation={this.props.navigation} />
-        
           <View style={styles.tabs}>
             <Button transparent light style={styles.btnTabsSelected}>
               <Text style={styles.btnTabsText}>Solicitudes Pendientes</Text>
@@ -32,7 +32,8 @@ export default class Home extends Component {
             </TouchableOpacity>
           </View>
         <Content>
-          <Text>Dashboard</Text>
+        
+          <TripList/>
         </Content>
       </Container>
     );
