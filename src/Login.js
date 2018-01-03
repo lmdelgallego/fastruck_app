@@ -29,8 +29,8 @@ export default class Login extends Component {
   
   render() {
     return (
-      <ImageBackground source={require('./accets/bg_login.png')} style={styles.container}>
-        <Image source={require('./accets/logo_fastruck_white.png')} style={styles.logo} />
+      <ImageBackground source={require('./assets/bg_login.png')} style={styles.container}>
+        <Image source={require('./assets/logo_fastruck_white.png')} style={styles.logo} />
         
         <View style={styles.inputContainer}>
           <View style={styles.iconInput}>
