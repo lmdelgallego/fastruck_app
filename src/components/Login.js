@@ -13,24 +13,40 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+
+import {bindActionCreators} from 'redux';
+import * as authActions from '../actions/authenticate';
+import {connect} from 'react-redux';
+
 import Icon from 'react-native-vector-icons/Ionicons';
 
-export default class Login extends Component {
-  static navigationOptions = {
-    // title: 'Welcome',
-    // header: null
-  };
+class Login extends Component {
+  static navigationOptions = ({navigation}) => {
+    const {
+      params = {}
+    } = navigation.state;
+    return {title: 'Login', header: null}
+  }
   
+  constructor(props) {
+    super(props);
+    this.state = {
+      username: '',
+      password: '',
+      hideLogo: false
+    };
+  }
+
   
-  handlePress = () => {
-    const { navigate } = this.props.navigation;
-    navigate('Home');
+  handleLogin = () => {
+    console.warn('0ligi')
+    this.props.actions.login(this.state.username, this.state.password);
   }
   
   render() {
     return (
-      <ImageBackground source={require('./assets/bg_login.png')} style={styles.container}>
-        <Image source={require('./assets/logo_fastruck_white.png')} style={styles.logo} />
+      <ImageBackground source={require('../assets/bg_login.png')} style={styles.container}>
+        <Image source={require('../assets/logo_fastruck_white.png')} style={styles.logo} />
         
         <View style={styles.inputContainer}>
           <View style={styles.iconInput}>
@@ -44,7 +60,7 @@ export default class Login extends Component {
           </View>
           <TextInput  style={styles.input} placeholder="Password" placeholderTextColor="white" secureTextEntry={true}/>
         </View>
-        <TouchableOpacity onPress={this.handlePress} style={styles.button}>
+        <TouchableOpacity onPress={this.handleLogin} style={styles.button}>
           <Text style={styles.textButton}>Ingresar</Text>
           <Icon name="ios-arrow-dropright-outline" size={30} color="white" style={styles.iconButton} />
         </TouchableOpacity>
@@ -127,3 +143,7 @@ const styles = StyleSheet.create({
   }
 
 });
+
+export default connect(state => ({state: state.authenticate}), (dispatch) => ({
+  actions: bindActionCreators(authActions, dispatch)
+}))(Login);

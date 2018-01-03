@@ -24,7 +24,7 @@ export default class HeaderFast extends Component {
              onPress={() => this.handleMenu('DrawerOpen')}>
               <Icon ios='ios-menu' android="md-menu" style={styles.menuIcon} />
             </Button>
-            <Image source={require('./assets/logo_fastruck_white.png')} style={styles.logo}/>
+            <Image source={require('../assets/logo_fastruck_white.png')} style={styles.logo}/>
           </Left>
           <Right style={styles.headerRigth} >
             <Button transparent>

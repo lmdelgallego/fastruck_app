@@ -27,7 +27,7 @@ class SideBar extends Component {
     return (
       <Container style={styles.container}>
         <View style={styles.containerHeader}>
-          <Thumbnail source={require('../assets/fotico.jpg')} style={styles.photo} />
+          <Thumbnail source={require('../../assets/fotico.jpg')} style={styles.photo} />
           <TouchableOpacity style={styles.btnProfile}>
             <Text style={styles.profileText} >Luis Miguel Del Gallego</Text>
             <Icon style={styles.profileIcon} name="settings" />

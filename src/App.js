@@ -1,31 +1,23 @@
-import React from 'react';
-import { DrawerNavigator } from 'react-navigation';
+import React, { Component } from 'react';
+import {createStore, applyMiddleware, combineReducers} from 'redux';
+import {Provider} from 'react-redux';
+import thunk from 'redux-thunk';
 
-import LoginScreen from './Login';
-import HomeScreen from './Home';
-import SideBar from './Sidebar/Sidebar.js';
-import Profile from './Profile/Profile';
+import * as reducers from './reducers';
+import Main from './components/Main';
 
-const RootNavigator = DrawerNavigator(
-  {
-    Login: { 
-      screen: LoginScreen 
-    },
-    Home: { 
-      screen: HomeScreen, 
-    },
-    Profile:{
-      screen: Profile
-    }
-  },
-  {
-    headerMode: 'screen',
-    drawerOpenRoute: 'DrawerOpen',
-    drawerCloseRoute: 'DrawerClose',
-    drawerToggleRoute: 'DrawerToggle',
-    // initialRouteName: 'Home',
-    contentComponent: props => <SideBar {...props} />
+const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
+const reducer = combineReducers(reducers);
+const store = createStoreWithMiddleware(reducer);
+
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <Main/>
+      </Provider>
+    );
   }
-);
+}
 
-export default RootNavigator;
+export default App;
